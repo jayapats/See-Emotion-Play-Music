@@ -67,7 +67,7 @@ public class UserServiceTest {
     }
 
     @Test
-    public void getTopTracks_Forbidden() {
+    public void getUser_Forbidden() {
         Mockito.when(restTemplate.exchange(ArgumentMatchers.anyString(),
                 ArgumentMatchers.any(HttpMethod.class),
                 ArgumentMatchers.<HttpEntity<?>> any(),
@@ -82,7 +82,7 @@ public class UserServiceTest {
     }
 
     @Test
-    public void getTopTracks_BadRequest() {
+    public void getUser_BadRequest() {
         Mockito.when(restTemplate.exchange(ArgumentMatchers.anyString(),
                 ArgumentMatchers.any(HttpMethod.class),
                 ArgumentMatchers.<HttpEntity<?>> any(),
@@ -97,7 +97,7 @@ public class UserServiceTest {
     }
 
     @Test
-    public void getTopTracks_InternalServerError() {
+    public void getUser_InternalServerError() {
         Mockito.when(restTemplate.exchange(ArgumentMatchers.anyString(),
                 ArgumentMatchers.any(HttpMethod.class),
                 ArgumentMatchers.<HttpEntity<?>>any(),

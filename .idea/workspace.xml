@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13ab274b-83de-45ed-a91a-7b10e819c288" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/AppUserServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/ArtistServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/CurrentMusicServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/CustomizeMusicServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/TopTrackServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/TopTrackofArtistTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/TrackAttributeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/UserServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TopArtists.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TopArtists1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TopArtiststracks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TopFiveArtists.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TopTracks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TrackAttributes_tc1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TrackAttributes_tc2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/ArtistService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/ArtistService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/CurrentMusicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/CurrentMusicService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/CustomizeMusicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/CustomizeMusicService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/SavedTrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/SavedTrackService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TopTrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TopTrackService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TopTrackofArtist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TopTrackofArtist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TrackAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TrackAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,6 +250,9 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/See_Emotion_Play_Music$com_spotify_faceapi_in_web_thymeleaf.ic" NAME="com.spotify.faceapi in web-thymeleaf Coverage Results" MODIFIED="1646280028995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.spotify.faceapi.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/SEPM$com_spotify_faceapi_Utility_in_SEPM.ic" NAME="com.spotify.faceapi.Utility in SEPM Coverage Results" MODIFIED="1643848646076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.spotify.faceapi.Utility.*</FILTER>
     </SUITE>
