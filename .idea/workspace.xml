@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13ab274b-83de-45ed-a91a-7b10e819c288" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/SpotifyAPIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/SpotifyAPIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/SpotifyCallbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/SpotifyCallbackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Exception/BadArgumentsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Exception/BadRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Exception/ForbiddenException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Exception/InternalException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Exception/UnAuthorizedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/CurrentMusicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/CurrentMusicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/CustomizeMusicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/CustomizeMusicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/SavedTrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/SavedTrackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TopTrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TopTrackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TopTrackofArtist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TopTrackofArtist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/customized_tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/customized_tracks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/failure_callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/failureConnect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/featured-playlists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login_failure.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login_failure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/no-data.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataUnavailable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recent-tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recentTracks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/saved-albums.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/saved-tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/savedTracks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/spotify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/success_callback.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/top-artists.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/topArtists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/top-tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/topTracks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/AppUserServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/ArtistServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/CurrentMusicServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/CustomizeMusicServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/TopTrackServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/TopTrackofArtistTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/TrackAttributeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/UserServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Utility/EncoderUtilityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Utility/TermUtilityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Utility/encryptUtilityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TopArtists.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TopArtists1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TopArtiststracks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TopFiveArtists.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TopTracks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TrackAttributes_tc1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TrackAttributes_tc2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/SpotifyAPIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/SpotifyAPIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/SpotifyCallbackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/SpotifyCallbackController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Service/CustomizeMusicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Service/CustomizeMusicService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/SpotifyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/customized_tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/customized_tracks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/failure_callback.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/featured-playlists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login_failure.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login_failure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/no-data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/recent-tracks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/register_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/register_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/saved-albums.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/saved-tracks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/spotify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/success_callback.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/top-artists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/top-tracks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Controller/MainControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Controller/ModelTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Controller/SpotifyAPIControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Controller/TestController.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="23UaiQJ83ehEZdhRucNKIfP8YqK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PROJECT\NEW\faceapi\SEPM\src\main\resources\templates" />
+      <recent name="C:\PROJECT\NEW\faceapi\SEPM\src\main\resources\img" />
+      <recent name="C:\PROJECT\NEW\faceapi\SEPM\src\test\java\com\spotify\faceapi\Controller" />
+      <recent name="C:\PROJECT\NEW\faceapi\SEPM\src\test\java\com\spotify\faceapi\data" />
+      <recent name="C:\PROJECT\NEW\faceapi\SEPM\src\test\java\com\spotify\faceapi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PROJECT\NEW\faceapi\SEPM\src\main\java\com\spotify\faceapi\Entity" />
+      <recent name="C:\PROJECT\NEW\faceapi\SEPM\src\main\java\com\spotify\faceapi\data" />
+      <recent name="C:\PROJECT\NEW\faceapi\SEPM\src\test\java\com\spotify\faceapi\data" />
+      <recent name="C:\PROJECT\WORKING\faceapi\SEPM\src\main\resources\static\models" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.spotify.faceapi" />
+      <recent name="" />
+      <recent name="com.example.faceapi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.spotify.faceapi.Exception" />
+      <recent name="com.example.faceapi.Service" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.FaceapiApplication">
+    <configuration name="FaceapiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spotify.faceapi.FaceapiApplication" />
+      <module name="web-thymeleaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spotify.faceapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppUserServiceTest.saveUser_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-thymeleaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spotify.faceapi.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spotify.faceapi.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.spotify.faceapi.Service.AppUserServiceTest" />
+      <option name="METHOD_NAME" value="saveUser_Success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppUserServiceTest.validateUser_Failure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-thymeleaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spotify.faceapi.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spotify.faceapi.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.spotify.faceapi.Service.AppUserServiceTest" />
+      <option name="METHOD_NAME" value="validateUser_Failure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpotifyAPIControllerTest.topArtistsController_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-thymeleaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spotify.faceapi.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spotify.faceapi.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.spotify.faceapi.Controller.SpotifyAPIControllerTest" />
+      <option name="METHOD_NAME" value="topArtistsController_valid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.spotify.faceapi in web-thymeleaf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-thymeleaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spotify.faceapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spotify.faceapi" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FaceapiApplication" />
+        <item itemvalue="JUnit.com.spotify.faceapi in web-thymeleaf" />
+        <item itemvalue="JUnit.SpotifyAPIControllerTest.topArtistsController_valid" />
+        <item itemvalue="JUnit.AppUserServiceTest.saveUser_Success" />
+        <item itemvalue="JUnit.AppUserServiceTest.validateUser_Failure" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13ab274b-83de-45ed-a91a-7b10e819c288" name="Changes" comment="" />
+      <created>1641791247663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641791247663</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Controller/MainControllerTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/MainController.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Controller/MainControllerTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TrackAttribute.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TrackAttribute.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/AppUserService.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/AppUserService.java</url>
+          <line>45</line>
+          <properties class="com.spotify.faceapi.Service.AppUserService" method="findByUsername">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="items_to_delete" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SEPM$com_spotify_faceapi_Utility_in_SEPM.ic" NAME="com.spotify.faceapi.Utility in SEPM Coverage Results" MODIFIED="1643848646076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.spotify.faceapi.Utility.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SEPM$TopTrackServiceTest_getTopTracks_NoContent.ic" NAME="TopTrackServiceTest.getTopTracks_NoContent Coverage Results" MODIFIED="1644086880552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.spotify.faceapi.Service.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #282a35;
+    }
+
+    canvas {
+      position: absolute;
+    }
+    h1{
+    font-size: xx-large;
+    color: white}
+  </style>
+</head>
+<body>
+<form method = "GET" action = "/spotify">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <h1> Detecting Facial expression</h1>
+            </div>
+
+            <div class="col-sm-5">
+                <video id="video" width="300" height="240" autoplay muted></video>
+            </div>
+
+            <div class="col-sm-5">
+                <span id="emotionsp">Reaction......</span>
+                <input type="text" class="form-control" id ="emotion"  path ="emotion" placeholder="emotion" name="emotion" >
+            </div>
+
+            <div class="col-sm-2">
+<!--                <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="300"-->
+<!--                        height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>-->
+                <button type="submit" style ="margin-top: 12%;" class="btn btn-primary">Get Playlist</button>
+            </div>
+        </div>
+
+    </div>
+</form>
+</body>
+<script type="text/javascript" src="face-api.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
