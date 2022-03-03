@@ -134,6 +134,18 @@ public class CustomizeMusicService {
 
             return result;
         }
+        catch (NoTrackException exception) {
+            System.out.println("No Tracks Found Exception!");
+            return "dataUnavailable";
+        }
+        catch (NoArtistsException exception) {
+            System.out.println("No Artists Found Exception!");
+            return "dataUnavailable";
+        }
+        catch (NoAttributeException exception) {
+            System.out.println("No Attributes Found Exception!");
+            return "dataUnavailable";
+        }
         catch (Exception exception) {
             System.out.println("Exception occured: "+exception);
             return "dataUnavailable";

@@ -42,6 +42,16 @@ public class TopTrackofArtist {
         ArrayList items_toptracksofArtist = (ArrayList) result_toptracksofArtist.get("tracks");
         return result_toptracksofArtist;
 
+        } catch (HttpClientErrorException.Unauthorized e) {
+            throw new UnAuthorizedException(AppConstants.UnAuthorizedException_Msg);
+        } catch (HttpClientErrorException.Forbidden e) {
+            throw new ForbiddenException(AppConstants.ForbiddenException_Msg);
+        } catch (HttpClientErrorException.BadRequest e) {
+            throw new BadRequestException(AppConstants.BadRequestException_Msg);
+        } catch (HttpClientErrorException.NotFound e) {
+            throw new NotFoundException(AppConstants.NotFoundException_Msg);
+        } catch (NoTrackException e) {
+            throw new NoArtistsException(AppConstants.NoTrackException_Msg);
         } catch (Exception e) {
             e.printStackTrace();
         }
