@@ -41,7 +41,7 @@ public class SpotifyAPIController {
             model.addAttribute("artists",
                     topArtistService.getTopArtists((String) session.getAttribute("accessToken"), term));
             model.addAttribute("term", TermUtility.getTerm(term));
-        } catch (NoArtistsException exception) {
+        } catch (NoTrackException exception) {
             return "dataUnavailable";
         } catch (Exception e) {
             e.printStackTrace();

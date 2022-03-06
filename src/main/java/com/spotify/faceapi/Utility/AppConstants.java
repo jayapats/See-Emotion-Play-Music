@@ -20,7 +20,7 @@ public final class AppConstants {
     public static String UnAuthorizedException_Msg = "User not Authorized";
     public static String ForbiddenException_Msg = "User does not have permission to access this server";
     public static String BadRequestException_Msg = "Bad Request, try again";
-    public static String NotFoundException_Msg = "server encountered an unexpected condition that prevented it from fulfilling the request";
+    public static String NotFoundException_Msg = "Server encountered an unexpected condition that prevented it from fulfilling the request";
     public static String NoArtistsException_Msg = "No Artists Found";
     public static String NoTrackException_Msg = "No Tracks Found";
     public static String NoAttributeException_Msg = "No Attributes were found for the current track";
