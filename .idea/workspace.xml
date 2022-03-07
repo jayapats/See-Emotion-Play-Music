@@ -7,7 +7,12 @@
     <list default="true" id="13ab274b-83de-45ed-a91a-7b10e819c288" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/SpotifyAPIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/SpotifyAPIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Utility/AppConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Utility/AppConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/CustomizeMusicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/CustomizeMusicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/customized_tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/customized_tracks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/SpotifyAPIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/SpotifyAPIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Service/CustomizeMusicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Service/CustomizeMusicService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/customized_tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/customized_tracks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Service/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Service/UserServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +64,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -90,7 +95,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.com.spotify.faceapi in web-thymeleaf">
+  <component name="RunManager" selected="Application.FaceapiApplication">
     <configuration name="FaceapiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spotify.faceapi.FaceapiApplication" />
       <module name="web-thymeleaf" />
@@ -175,10 +180,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FaceapiApplication" />
         <item itemvalue="JUnit.com.spotify.faceapi in web-thymeleaf" />
         <item itemvalue="JUnit.com.spotify.faceapi.Utility in web-thymeleaf" />
         <item itemvalue="JUnit.com.spotify.faceapi.Service in web-thymeleaf" />
-        <item itemvalue="Application.FaceapiApplication" />
         <item itemvalue="JUnit.SpotifyAPIControllerTest.topArtistsController_valid" />
       </list>
     </recent_temporary>
@@ -224,23 +229,24 @@
           <option name="timeStamp" value="156" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TrackAttribute.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="236" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/SpotifyAPIController.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="267" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/AppUserService.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="248" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/SaveTrackService.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="271" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/AppUserService.java</url>
-          <line>45</line>
-          <properties class="com.spotify.faceapi.Service.AppUserService" method="findByUsername">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="247" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/SaveTrackService.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/SpotifyAPIController.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="274" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

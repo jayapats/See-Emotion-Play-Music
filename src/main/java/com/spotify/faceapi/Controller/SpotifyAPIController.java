@@ -1,5 +1,7 @@
 package com.spotify.faceapi.Controller;
 
+import com.spotify.faceapi.Entity.SaveTrackID;
+import com.spotify.faceapi.Entity.UserInfo;
 import com.spotify.faceapi.Exception.*;
 import com.spotify.faceapi.Utility.TermUtility;
 
@@ -7,9 +9,11 @@ import com.spotify.faceapi.Utility.TermUtility;
 import javax.servlet.http.HttpSession;
 
 import com.spotify.faceapi.Service.*;
+import com.spotify.faceapi.bean.SaveTrackList;
 import com.spotify.faceapi.bean.Tracks_obj;
 import lombok.AllArgsConstructor;
 import org.apache.hc.core5.http.ParseException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,6 +23,7 @@ import se.michaelthelin.spotify.exceptions.SpotifyWebApiException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 @Controller
@@ -32,6 +37,10 @@ public class SpotifyAPIController {
     private final UserService userDetails;
     private final CurrentMusicService currentPlaying;
     private final SavedTrackService savedTrackService;
+    SaveTrackList saveTrackList;
+
+    @Autowired
+    private SaveTrackService saveTrackService;
 
     @GetMapping(value = "/topArtists", produces = MediaType.TEXT_HTML_VALUE)
     public String topArtistsController(@RequestParam("term") final Integer term, final HttpSession session,
@@ -112,7 +121,7 @@ public class SpotifyAPIController {
 
     @GetMapping(value = "/spotify", produces = MediaType.TEXT_HTML_VALUE)
     public String getCustomisedPlaylist(@RequestParam("emotion") String emotion,Model model, final HttpSession session) throws IOException, ParseException, SpotifyWebApiException {
-
+//        SaveTrackList saveTrackList = new SaveTrackList();
         System.out.println("getCustomisedPlaylist Controller");
         System.out.println(emotion);
         try {
@@ -124,16 +133,42 @@ public class SpotifyAPIController {
         } catch (NoAccountException exception) {
             return "dataUnavailable";
         }
+        System.out.println("Controller, SavetrackList: "+saveTrackList.getSaveTrackIdList());
+
         return "customized_tracks";
 
     }
+//
+//    @GetMapping(value = "/savePlaylist", produces = MediaType.TEXT_HTML_VALUE)
+//    public String savePlaylistController(final HttpSession session, final Model model) throws NoArtistsException, BadRequestException, NotFoundException, UnAuthorizedException, NoTrackException, ForbiddenException {
+//
+//            System.out.println("Hi Saving");
+//            return null;
+//        }
 
     @GetMapping(value = "/savePlaylist", produces = MediaType.TEXT_HTML_VALUE)
-    public String savePlaylistController(final HttpSession session, final Model model) throws NoArtistsException, BadRequestException, NotFoundException, UnAuthorizedException, NoTrackException, ForbiddenException {
+    public String savePlaylistController(final HttpSession session, final Model model) throws Exception {
+        System.out.println("Hi Saving");
+        ArrayList<String> trackIDList = saveTrackList.getSaveTrackIdList();
+        System.out.println("Controller, Save: "+ trackIDList);
 
-            System.out.println("Hi Saving");
-            return null;
+
+        SaveTrackID response = new SaveTrackID();
+        List<SaveTrackID> savetrackIDList = new ArrayList<>();
+
+
+        for(String trackID:trackIDList) {
+//            saveTrackID.setTrackID(trackID);
+            SaveTrackID saveTrackID = new SaveTrackID();
+            saveTrackID.setTrackID(trackID);
+            savetrackIDList.add(saveTrackID);
+
         }
+
+        saveTrackService.saveTrackID(savetrackIDList);
+
+        return "main";
+    }
 
 
 }

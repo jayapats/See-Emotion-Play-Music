@@ -8,7 +8,9 @@ import com.spotify.faceapi.Exception.NoArtistsException;
 import com.spotify.faceapi.Exception.NoAttributeException;
 import com.spotify.faceapi.Exception.NoTrackException;
 import com.spotify.faceapi.Utility.AppConstants;
+import com.spotify.faceapi.bean.SaveTrackList;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -17,6 +19,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 //import org.json.simple.JSONObject;
 
+import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -31,8 +34,10 @@ public class CustomizeMusicService {
     private final TopTrackofArtist topTrackofArtist;
     private final RestTemplate restTemplate;
 
-    public Object getCustomTracks(String token, String emotion) throws NoAccountException, JsonProcessingException {
+    @Autowired
+    SaveTrackList saveTrackList;
 
+    public Object getCustomTracks(String token, String emotion) throws NoAccountException, JsonProcessingException {
         try {
             //Getting top tracks
             LinkedHashMap result = (LinkedHashMap) topTrackService.getTopTracks(token, 1);
@@ -127,6 +132,20 @@ public class CustomizeMusicService {
             }
             items.removeAll(items_to_delete);
             System.out.println(" After Removing " + result);
+
+            ArrayList<String> SaveTrackIdList = new ArrayList<>();
+            for (Map item : items) {
+                String SaveTrackId = item.get("id").toString();
+                SaveTrackIdList.add(SaveTrackId);
+                System.out.println("Saving track id:" + SaveTrackId);
+            }
+
+            for(String saveTrack:SaveTrackIdList) {
+                System.out.println("Saving track ids:" + saveTrack);
+            }
+
+            //adding to POJO
+            saveTrackList.setSaveTrackIdList(SaveTrackIdList);
 
             if (items == null) {
                 throw new NoTrackException("No tracks matching the current mood of User!");
