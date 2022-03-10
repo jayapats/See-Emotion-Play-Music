@@ -1,6 +1,7 @@
 package com.spotify.faceapi.Service;
 
 import com.spotify.faceapi.Entity.SaveTrackID;
+import com.spotify.faceapi.Entity.UserInfo;
 import com.spotify.faceapi.Repository.SaveTrackRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
@@ -25,6 +26,10 @@ public class SaveTrackService {
         catch (Exception e) {
             throw (e);
         }
+    }
+
+    public List<SaveTrackID> getTrackIDs() {
+        return saveTrackRepository.findAll();
     }
 
 }

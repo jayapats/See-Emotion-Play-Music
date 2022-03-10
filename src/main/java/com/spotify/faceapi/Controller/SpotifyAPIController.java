@@ -34,6 +34,7 @@ public class SpotifyAPIController {
     private final TopTrackService topTrackService;
     private final CustomizeMusicService customizeService;
     private final RecentlyPlayedTrackService recentPlayedTrackService;
+    private final RecentSavedTrackService recentSavedTrackService;
     private final UserService userDetails;
     private final CurrentMusicService currentPlaying;
     private final SavedTrackService savedTrackService;
@@ -62,6 +63,15 @@ public class SpotifyAPIController {
     public String recentTracksController(final HttpSession session, final Model model) throws NoArtistsException, BadRequestException, NotFoundException, UnAuthorizedException, NoTrackException, ForbiddenException {
         model.addAttribute("tracks", recentPlayedTrackService.getHistory((String) session.getAttribute("accessToken")));
         return "recentTracks";
+    }
+
+    @GetMapping(value = "/recentSavedTracks", produces = MediaType.TEXT_HTML_VALUE)
+    public String recentSavedTracksController(final HttpSession session, final Model model) throws NoArtistsException, BadRequestException, NotFoundException, UnAuthorizedException, NoTrackException, ForbiddenException, NoAccountException {
+//        model.addAttribute("tracks", recentPlayedTrackService.getHistory((String) session.getAttribute("accessToken")));
+//        return "recentTracks";
+        model.addAttribute("tracks", recentSavedTrackService.getRecentSavedTracks((String) session.getAttribute("accessToken")));
+        return "recentSavedTracks";
+
     }
 
     @GetMapping(value = "/topTracks", produces = MediaType.TEXT_HTML_VALUE)
@@ -138,13 +148,7 @@ public class SpotifyAPIController {
         return "customized_tracks";
 
     }
-//
-//    @GetMapping(value = "/savePlaylist", produces = MediaType.TEXT_HTML_VALUE)
-//    public String savePlaylistController(final HttpSession session, final Model model) throws NoArtistsException, BadRequestException, NotFoundException, UnAuthorizedException, NoTrackException, ForbiddenException {
-//
-//            System.out.println("Hi Saving");
-//            return null;
-//        }
+
 
     @GetMapping(value = "/savePlaylist", produces = MediaType.TEXT_HTML_VALUE)
     public String savePlaylistController(final HttpSession session, final Model model) throws Exception {
@@ -158,7 +162,6 @@ public class SpotifyAPIController {
 
 
         for(String trackID:trackIDList) {
-//            saveTrackID.setTrackID(trackID);
             SaveTrackID saveTrackID = new SaveTrackID();
             saveTrackID.setTrackID(trackID);
             savetrackIDList.add(saveTrackID);

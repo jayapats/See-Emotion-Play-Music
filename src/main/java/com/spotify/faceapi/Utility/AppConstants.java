@@ -14,6 +14,7 @@ public final class AppConstants {
     public static String TRACK_ATTRIBUTES_URL = "https://api.spotify.com/v1/audio-features?ids=";
     public static String USER_URL = "https://api.spotify.com/v1/me";
     public static String SAVED_TRACKS_URL = "https://api.spotify.com/v1/me/tracks?limit=50";
+    public static String RECENT_SAVED_TRACKS_URL = "https://api.spotify.com/v1/tracks?market=ES&ids=";
 
 
     //Exception Messages
