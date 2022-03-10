@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  maven-build: inclasstoday/maven-build@X.Y.Z
+  maven-build: circleCIuild@1.3.0
 workflows:
   version: 2.1
   verify_and_build:
