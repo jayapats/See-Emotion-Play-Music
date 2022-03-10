@@ -3,7 +3,8 @@ orbs:
   maven: circleci/maven@1.3.0
 workflows:
   version: 2.1
-  verify_and_build:
-    jobs:
-      - maven-build/docker_build:
-          context: maven-build
+  workflows:
+    maven_test:
+      jobs:
+        - maven/test:
+            command: '-U'
