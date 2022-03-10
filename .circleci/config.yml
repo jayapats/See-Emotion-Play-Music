@@ -12,6 +12,15 @@ jobs:
       - image: cimg/base:stable
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
+    orbs:
+      maven: circleci/maven@x.y
+    version: 2.1
+    workflows:
+      maven_test:
+        jobs:
+          - maven/test:
+              command: '-U'
+
     steps:
       - checkout
       - run:
