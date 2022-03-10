@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  maven-build: CircleCI/maven@1.3.0
+  maven: circleci/maven@1.3.0
 workflows:
   version: 2.1
   verify_and_build:
