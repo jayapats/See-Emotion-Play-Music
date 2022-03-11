@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13ab274b-83de-45ed-a91a-7b10e819c288" name="Changes" comment="" />
+    <list default="true" id="13ab274b-83de-45ed-a91a-7b10e819c288" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/UserServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +54,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/spotify/faceapi" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -59,11 +62,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PROJECT\SEPM_Final\See-Emotion-Play-Music\src\test\java\com\spotify\faceapi" />
       <recent name="C:\PROJECT\NEW\faceapi\SEPM\src\main\resources\templates" />
       <recent name="C:\PROJECT\NEW\faceapi\SEPM\src\main\resources\img" />
       <recent name="C:\PROJECT\NEW\faceapi\SEPM\src\test\java\com\spotify\faceapi\Controller" />
       <recent name="C:\PROJECT\NEW\faceapi\SEPM\src\test\java\com\spotify\faceapi\data" />
-      <recent name="C:\PROJECT\NEW\faceapi\SEPM\src\test\java\com\spotify\faceapi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\PROJECT\NEW\faceapi\SEPM\src\main\java\com\spotify\faceapi\Entity" />
@@ -86,7 +89,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.FaceapiApplication">
+  <component name="RunManager" selected="JUnit.com.spotify.faceapi in web-thymeleaf">
     <configuration name="FaceapiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spotify.faceapi.FaceapiApplication" />
       <module name="web-thymeleaf" />
@@ -96,38 +99,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppUserServiceTest.saveUser_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-thymeleaf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spotify.faceapi.Service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spotify.faceapi.Service" />
-      <option name="MAIN_CLASS_NAME" value="com.spotify.faceapi.Service.AppUserServiceTest" />
-      <option name="METHOD_NAME" value="saveUser_Success" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppUserServiceTest.validateUser_Failure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-thymeleaf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spotify.faceapi.Service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spotify.faceapi.Service" />
-      <option name="MAIN_CLASS_NAME" value="com.spotify.faceapi.Service.AppUserServiceTest" />
-      <option name="METHOD_NAME" value="validateUser_Failure" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,6 +133,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.spotify.faceapi.Service in web-thymeleaf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-thymeleaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spotify.faceapi.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spotify.faceapi.Service" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.spotify.faceapi.Utility in web-thymeleaf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-thymeleaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spotify.faceapi.Utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spotify.faceapi.Utility" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FaceapiApplication" />
         <item itemvalue="JUnit.com.spotify.faceapi in web-thymeleaf" />
+        <item itemvalue="JUnit.com.spotify.faceapi.Utility in web-thymeleaf" />
+        <item itemvalue="JUnit.com.spotify.faceapi.Service in web-thymeleaf" />
+        <item itemvalue="Application.FaceapiApplication" />
         <item itemvalue="JUnit.SpotifyAPIControllerTest.topArtistsController_valid" />
-        <item itemvalue="JUnit.AppUserServiceTest.saveUser_Success" />
-        <item itemvalue="JUnit.AppUserServiceTest.validateUser_Failure" />
       </list>
     </recent_temporary>
   </component>
@@ -225,12 +224,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TrackAttribute.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="235" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TrackAttribute.java</url>
-          <line>47</line>
+          <line>37</line>
           <option name="timeStamp" value="236" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -241,7 +235,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/AppUserService.java</url>
           <line>45</line>
-          <properties class="com.spotify.faceapi.Service.AppUserService">
+          <properties class="com.spotify.faceapi.Service.AppUserService" method="findByUsername">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

@@ -34,7 +34,16 @@ public class SavedTrackService {
                 throw new NoArtistsException(AppConstants.NoArtistsException_Msg);
         }
         return result;
-
+        } catch (HttpClientErrorException.Unauthorized e) {
+            throw new UnAuthorizedException(AppConstants.UnAuthorizedException_Msg);
+        } catch (HttpClientErrorException.Forbidden e) {
+            throw new ForbiddenException(AppConstants.ForbiddenException_Msg);
+        } catch (HttpClientErrorException.BadRequest e) {
+            throw new BadRequestException(AppConstants.BadRequestException_Msg);
+        } catch (HttpClientErrorException.NotFound e) {
+            throw new NotFoundException(AppConstants.NotFoundException_Msg);
+        } catch (NoArtistsException e) {
+            throw new NoArtistsException(AppConstants.NoArtistsException_Msg);
         } catch (Exception e) {
             e.printStackTrace();
         }
