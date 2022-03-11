@@ -61,28 +61,28 @@ public class CustomizeMusicServiceTest {
         JSONParser parser = new JSONParser();
         ObjectMapper mapper = new ObjectMapper();
 
-        Object json_obj  = parser.parse(new FileReader("C:\\PROJECT\\NEW\\faceapi\\SEPM\\src\\test\\java\\com\\spotify\\faceapi\\data\\TopTracks.json"));
+        Object json_obj  = parser.parse(new FileReader("src/test/java/com/spotify/faceapi/data/TopTracks.json"));
         Map<String, String> topTracks_map = mapper.readValue(json_obj.toString(), Map.class);
         Mockito.when(topTrackService.getTopTracks("AZT1010ZZ7H2",1)).thenReturn(topTracks_map);
 
-        Object json_obj1  = parser.parse(new FileReader("C:\\PROJECT\\NEW\\faceapi\\SEPM\\src\\test\\java\\com\\spotify\\faceapi\\data\\TopArtists.json"));
+        Object json_obj1  = parser.parse(new FileReader("src/test/java/com/spotify/faceapi/data/TopArtists.json"));
         Map<String, String> topArtist_map = mapper.readValue(json_obj1.toString(), Map.class);
         Mockito.when(topArtistService.getTopArtists("AZT1010ZZ7H2",1)).thenReturn(topArtist_map);
 
-        json_obj1  = parser.parse(new FileReader("C:\\PROJECT\\NEW\\faceapi\\SEPM\\src\\test\\java\\com\\spotify\\faceapi\\data\\TopFiveArtists.json"));
+        json_obj1  = parser.parse(new FileReader("src/test/java/com/spotify/faceapi/data/TopFiveArtists.json"));
         Map<String, String> topFiveArtist_map = mapper.readValue(json_obj1.toString(), Map.class);
         Mockito.when(topArtistService.getTopFiveArtists("AZT1010ZZ7H2",1)).thenReturn(topFiveArtist_map);
 
 
-        Object json_obj2  = parser.parse(new FileReader("C:\\PROJECT\\NEW\\faceapi\\SEPM\\src\\test\\java\\com\\spotify\\faceapi\\data\\TrackAttributes_tc1.json"));
+        Object json_obj2  = parser.parse(new FileReader("src/test/java/com/spotify/faceapi/data/TrackAttributes_tc1.json"));
         Map<String, String> trackAttribue_map1 = mapper.readValue(json_obj2.toString(), Map.class);
         Mockito.when(trackAttribute.getTrackAttributes("AZT1010ZZ7H2","75TjBQ1zUgpueA1fm8tCHP")).thenReturn(trackAttribue_map1);
 
-        Object json_obj_at2  = parser.parse(new FileReader("C:\\PROJECT\\NEW\\faceapi\\SEPM\\src\\test\\java\\com\\spotify\\faceapi\\data\\TrackAttributes_tc2.json"));
+        Object json_obj_at2  = parser.parse(new FileReader("src/test/java/com/spotify/faceapi/data/TrackAttributes_tc2.json"));
         Map<String, String> trackAttribue_map2 = mapper.readValue(json_obj_at2.toString(), Map.class);
         Mockito.when(trackAttribute.getTrackAttributes("AZT1010ZZ7H2","3xQGfRh1FEqfTGUW3kkea2")).thenReturn(trackAttribue_map2);
 
-        Object json_obj3  = parser.parse(new FileReader("C:\\PROJECT\\NEW\\faceapi\\SEPM\\src\\test\\java\\com\\spotify\\faceapi\\data\\TopArtiststracks.json"));
+        Object json_obj3  = parser.parse(new FileReader("src/test/java/com/spotify/faceapi/data/TopArtiststracks.json"));
         Map<String, String> topArtiststracks_map1 = mapper.readValue(json_obj3.toString(), Map.class);
         Mockito.when(topTrackofArtist.getTopTracksofArtist("AZT1010ZZ7H2","1mYsTxnqsietFxj1OgoGbG")).thenReturn(topArtiststracks_map1);
 

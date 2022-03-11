@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="13ab274b-83de-45ed-a91a-7b10e819c288" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/CustomizeMusicServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/CustomizeMusicServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Service/CustomizeMusicServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Service/CustomizeMusicServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Service/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Service/UserServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +91,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.com.spotify.faceapi in web-thymeleaf">
+  <component name="RunManager" selected="JUnit.CustomizeMusicServiceTest">
     <configuration name="FaceapiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spotify.faceapi.FaceapiApplication" />
       <module name="web-thymeleaf" />
@@ -103,18 +105,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpotifyAPIControllerTest.topArtistsController_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomizeMusicServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-thymeleaf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spotify.faceapi.Controller.*" />
+          <option name="PATTERN" value="com.spotify.faceapi.Service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spotify.faceapi.Controller" />
-      <option name="MAIN_CLASS_NAME" value="com.spotify.faceapi.Controller.SpotifyAPIControllerTest" />
-      <option name="METHOD_NAME" value="topArtistsController_valid" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.spotify.faceapi.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.spotify.faceapi.Service.CustomizeMusicServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomizeMusicServiceTest" />
         <item itemvalue="JUnit.com.spotify.faceapi in web-thymeleaf" />
         <item itemvalue="JUnit.com.spotify.faceapi.Utility in web-thymeleaf" />
         <item itemvalue="JUnit.com.spotify.faceapi.Service in web-thymeleaf" />
         <item itemvalue="Application.FaceapiApplication" />
-        <item itemvalue="JUnit.SpotifyAPIControllerTest.topArtistsController_valid" />
       </list>
     </recent_temporary>
   </component>
