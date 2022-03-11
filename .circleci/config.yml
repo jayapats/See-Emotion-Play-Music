@@ -7,5 +7,5 @@ workflows:
     jobs:
       - maven/test:
           command: 'test'
-            - store_test_results:
-                path: test-results
+      - store_test_results:
+          path: test-results
