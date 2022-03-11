@@ -7,4 +7,5 @@ workflows:
     jobs:
       - maven/test:
           command: 'test'
-          test_results_path: .circleci/results
+            - store_test_results:
+                path: test-results
