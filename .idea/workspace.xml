@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="13ab274b-83de-45ed-a91a-7b10e819c288" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/CustomizeMusicServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/CustomizeMusicServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Service/CustomizeMusicServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Service/CustomizeMusicServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Service/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Service/UserServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/TopTrackofArtistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/TopTrackofArtistTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/TrackAttributeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/TrackAttributeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

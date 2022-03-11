@@ -45,7 +45,7 @@ public class TopTrackofArtistTest {
         JSONParser parser = new JSONParser();
         ObjectMapper mapper = new ObjectMapper();
 
-        Object json_obj3  = parser.parse(new FileReader("C:\\PROJECT\\NEW\\faceapi\\SEPM\\src\\test\\java\\com\\spotify\\faceapi\\data\\TopArtiststracks.json"));
+        Object json_obj3  = parser.parse(new FileReader("src/test/java/com/spotify/faceapi/data/TopArtiststracks.json"));
         Map<String, String> topArtiststracks_map1 = mapper.readValue(json_obj3.toString(), Map.class);
 
         ResponseEntity responseEntity = new ResponseEntity(topArtiststracks_map1, HttpStatus.OK);

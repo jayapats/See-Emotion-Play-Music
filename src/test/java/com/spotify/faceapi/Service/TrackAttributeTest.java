@@ -44,7 +44,7 @@ public class TrackAttributeTest {
         JSONParser parser = new JSONParser();
         ObjectMapper mapper = new ObjectMapper();
 
-        Object json_obj_at2  = parser.parse(new FileReader("C:\\PROJECT\\NEW\\faceapi\\SEPM\\src\\test\\java\\com\\spotify\\faceapi\\data\\TrackAttributes_tc2.json"));
+        Object json_obj_at2  = parser.parse(new FileReader("src/test/java/com/spotify/faceapi/data/TrackAttributes_tc2.json"));
         Map<String, String> trackAttribue_map2 = mapper.readValue(json_obj_at2.toString(), Map.class);
         ResponseEntity responseEntity = new ResponseEntity(trackAttribue_map2, HttpStatus.OK);
         Mockito.when(restTemplate.exchange(ArgumentMatchers.anyString(),
