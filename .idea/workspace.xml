@@ -5,80 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13ab274b-83de-45ed-a91a-7b10e819c288" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/SpotifyAPIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/SpotifyAPIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/SpotifyCallbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/SpotifyCallbackController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Exception/BadArgumentsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Exception/BadRequestException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Exception/ForbiddenException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Exception/InternalException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Exception/UnAuthorizedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/CurrentMusicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/CurrentMusicService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/CustomizeMusicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/CustomizeMusicService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/SavedTrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/SavedTrackService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TopTrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TopTrackService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TopTrackofArtist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/TopTrackofArtist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spotify/faceapi/Service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/customized_tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/customized_tracks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/failure_callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/failureConnect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/featured-playlists.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login_failure.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login_failure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/no-data.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dataUnavailable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recent-tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recentTracks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/saved-albums.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/saved-tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/savedTracks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/spotify.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/success_callback.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/top-artists.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/topArtists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/top-tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/topTracks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/AppUserServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/ArtistServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/CurrentMusicServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/CustomizeMusicServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/TopTrackServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/TopTrackofArtistTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/TrackAttributeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Service/UserServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Utility/EncoderUtilityTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Utility/TermUtilityTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/Utility/encryptUtilityTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TopArtists.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TopArtists1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TopArtiststracks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TopFiveArtists.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TopTracks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TrackAttributes_tc1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/faceapi/data/TrackAttributes_tc2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/SpotifyAPIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/SpotifyAPIController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/SpotifyCallbackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/SpotifyCallbackController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Service/CustomizeMusicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/Service/CustomizeMusicService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/SpotifyHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spotify/faceapi/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/customized_tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/customized_tracks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/failure_callback.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/featured-playlists.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login_failure.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login_failure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/no-data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/recent-tracks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/register_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/register_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/saved-albums.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/saved-tracks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/spotify.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/success_callback.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/top-artists.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/top-tracks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Controller/MainControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Controller/ModelTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Controller/SpotifyAPIControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spotify/faceapi/Controller/TestController.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +57,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
