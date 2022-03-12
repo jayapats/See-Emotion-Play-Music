@@ -64,15 +64,6 @@ public class ArtistService {
             ResponseEntity<Object> response = restTemplate.exchange(AppConstants.TopArtist_URL_limit + terms[term], HttpMethod.GET, entity,
                     Object.class);
 
-//        ObjectMapper Obj = new ObjectMapper();
-//        try {
-//            // Converting the Java object into a JSON string
-//            String jsonStr = Obj.writeValueAsString(response.getBody());
-//            // Displaying Java object into a JSON string
-//            System.out.println("The json is " + jsonStr);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
             System.out.print("Response Obj for getTopArtists: " + response.getBody());
             LinkedHashMap result = (LinkedHashMap) response.getBody();
 

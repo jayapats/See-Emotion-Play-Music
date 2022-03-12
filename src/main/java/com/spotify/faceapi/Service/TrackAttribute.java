@@ -28,16 +28,6 @@ public class TrackAttribute {
                 Object.class);
         System.out.print("Response Obj for att: " + response_att.getBody());
 
-//        ObjectMapper Obj = new ObjectMapper();
-//        try {
-//            // Converting the Java object into a JSON string
-//            String jsonStr = Obj.writeValueAsString(response_att.getBody());
-//            // Displaying Java object into a JSON string
-//            System.out.println("The json for track Attributes "+jsonStr);
-//        }
-//        catch (IOException e) {
-//            e.printStackTrace();
-//        }
 
         LinkedHashMap result_att = (LinkedHashMap) response_att.getBody();
 

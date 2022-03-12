@@ -26,9 +26,7 @@ public class CurrentMusicService {
         HttpEntity<String> entity = httpHeaderUtility.setHeaders(token);
         try{
         ResponseEntity<Object> response = restTemplate.exchange(AppConstants.CURRENT_PLAYING_URL, HttpMethod.GET, entity, Object.class);
-//        if (response.getStatusCodeValue() == 204) {
-//            throw new RuntimeException("no track found");
-//        }
+
         LinkedHashMap result = (LinkedHashMap) response.getBody();
 
         if (result.size()==0) {
@@ -36,7 +34,16 @@ public class CurrentMusicService {
         }
 
         return result;
-
+        } catch (HttpClientErrorException.Unauthorized e) {
+            throw new UnAuthorizedException(AppConstants.UnAuthorizedException_Msg);
+        } catch (HttpClientErrorException.Forbidden e) {
+            throw new ForbiddenException(AppConstants.ForbiddenException_Msg);
+        } catch (HttpClientErrorException.BadRequest e) {
+            throw new BadRequestException(AppConstants.BadRequestException_Msg);
+        } catch (HttpClientErrorException.NotFound e) {
+            throw new NotFoundException(AppConstants.NotFoundException_Msg);
+        } catch (NoTrackException e) {
+            throw new NoArtistsException(AppConstants.NoTrackException_Msg);
         } catch (Exception e) {
             e.printStackTrace();
         }
