@@ -1,0 +1,289 @@
+{
+  "items" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/2NoJ7NuNs9nyj8Thoh1kbu"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 2320818
+    },
+    "genres" : [ "filmi", "ghazal", "tamil pop" ],
+    "href" : "https://api.spotify.com/v1/artists/2NoJ7NuNs9nyj8Thoh1kbu",
+    "id" : "2NoJ7NuNs9nyj8Thoh1kbu",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6761610000e5eb65a752ef61def4fc6f67fc5a",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/ab6761610000517465a752ef61def4fc6f67fc5a",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/ab6761610000f17865a752ef61def4fc6f67fc5a",
+      "width" : 160
+    } ],
+    "name" : "Hariharan",
+    "popularity" : 70,
+    "type" : "artist",
+    "uri" : "spotify:artist:2NoJ7NuNs9nyj8Thoh1kbu"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/29aw5YCdIw2FEXYyAJZI8l"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 3053206
+    },
+    "genres" : [ "filmi", "tamil pop" ],
+    "href" : "https://api.spotify.com/v1/artists/29aw5YCdIw2FEXYyAJZI8l",
+    "id" : "29aw5YCdIw2FEXYyAJZI8l",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab67616d0000b273812bfb4e32feb448e527e8b1",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67616d00001e02812bfb4e32feb448e527e8b1",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab67616d00004851812bfb4e32feb448e527e8b1",
+      "width" : 64
+    } ],
+    "name" : "Harris Jayaraj",
+    "popularity" : 69,
+    "type" : "artist",
+    "uri" : "spotify:artist:29aw5YCdIw2FEXYyAJZI8l"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5OTt6O4Q22YsqZDaWV6FqC"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 206313
+    },
+    "genres" : [ "carnatic", "carnatic vocal", "filmi", "indian classical", "tamil pop" ],
+    "href" : "https://api.spotify.com/v1/artists/5OTt6O4Q22YsqZDaWV6FqC",
+    "id" : "5OTt6O4Q22YsqZDaWV6FqC",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6761610000e5eb17253dc3b16a683c8e38b5aa",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/ab6761610000517417253dc3b16a683c8e38b5aa",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/ab6761610000f17817253dc3b16a683c8e38b5aa",
+      "width" : 160
+    } ],
+    "name" : "Bombay Jayashri",
+    "popularity" : 61,
+    "type" : "artist",
+    "uri" : "spotify:artist:5OTt6O4Q22YsqZDaWV6FqC"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/0C8ZW7ezQVs4URX5aX7Kqx"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 32894791
+    },
+    "genres" : [ "dance pop", "pop", "post-teen pop" ],
+    "href" : "https://api.spotify.com/v1/artists/0C8ZW7ezQVs4URX5aX7Kqx",
+    "id" : "0C8ZW7ezQVs4URX5aX7Kqx",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6761610000e5eba5205abffd84341e5bace828",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/ab67616100005174a5205abffd84341e5bace828",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/ab6761610000f178a5205abffd84341e5bace828",
+      "width" : 160
+    } ],
+    "name" : "Selena Gomez",
+    "popularity" : 86,
+    "type" : "artist",
+    "uri" : "spotify:artist:0C8ZW7ezQVs4URX5aX7Kqx"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5VVN3xZw1i2qihfITZlvCZ"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 2778587
+    },
+    "genres" : [ "filmi", "tamil pop" ],
+    "href" : "https://api.spotify.com/v1/artists/5VVN3xZw1i2qihfITZlvCZ",
+    "id" : "5VVN3xZw1i2qihfITZlvCZ",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6761610000e5eb0a5c692089af5c0f9cf839f3",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/ab676161000051740a5c692089af5c0f9cf839f3",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/ab6761610000f1780a5c692089af5c0f9cf839f3",
+      "width" : 160
+    } ],
+    "name" : "G. V. Prakash",
+    "popularity" : 69,
+    "type" : "artist",
+    "uri" : "spotify:artist:5VVN3xZw1i2qihfITZlvCZ"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5sSzCxHtgL82pYDvx2QyEU"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 4180507
+    },
+    "genres" : [ "filmi", "tollywood" ],
+    "href" : "https://api.spotify.com/v1/artists/5sSzCxHtgL82pYDvx2QyEU",
+    "id" : "5sSzCxHtgL82pYDvx2QyEU",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6761610000e5ebae16bbb67ebe5b65d00875b5",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/ab67616100005174ae16bbb67ebe5b65d00875b5",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/ab6761610000f178ae16bbb67ebe5b65d00875b5",
+      "width" : 160
+    } ],
+    "name" : "Devi Sri Prasad",
+    "popularity" : 74,
+    "type" : "artist",
+    "uri" : "spotify:artist:5sSzCxHtgL82pYDvx2QyEU"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/3m49WVMU4zCkaVEKb8kFW7"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 3831812
+    },
+    "genres" : [ "classic kollywood", "filmi", "tamil pop" ],
+    "href" : "https://api.spotify.com/v1/artists/3m49WVMU4zCkaVEKb8kFW7",
+    "id" : "3m49WVMU4zCkaVEKb8kFW7",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6761610000e5ebec891c36864eb59b28f65cf8",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/ab67616100005174ec891c36864eb59b28f65cf8",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/ab6761610000f178ec891c36864eb59b28f65cf8",
+      "width" : 160
+    } ],
+    "name" : "Ilaiyaraaja",
+    "popularity" : 64,
+    "type" : "artist",
+    "uri" : "spotify:artist:3m49WVMU4zCkaVEKb8kFW7"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/4qOqkvXzdaWYexftGhR7ok"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 1637
+    },
+    "genres" : [ "mantra" ],
+    "href" : "https://api.spotify.com/v1/artists/4qOqkvXzdaWYexftGhR7ok",
+    "id" : "4qOqkvXzdaWYexftGhR7ok",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab67616d0000b273bca39296ee03a45f16223e45",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67616d00001e02bca39296ee03a45f16223e45",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab67616d00004851bca39296ee03a45f16223e45",
+      "width" : 64
+    } ],
+    "name" : "Saaswathi Prabhu",
+    "popularity" : 25,
+    "type" : "artist",
+    "uri" : "spotify:artist:4qOqkvXzdaWYexftGhR7ok"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5FVBduYaeVBb6JIghza7v6"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 782828
+    },
+    "genres" : [ "desi hip hop", "filmi", "tamil pop" ],
+    "href" : "https://api.spotify.com/v1/artists/5FVBduYaeVBb6JIghza7v6",
+    "id" : "5FVBduYaeVBb6JIghza7v6",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6761610000e5eba52538772891f66547e1ebc3",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/ab67616100005174a52538772891f66547e1ebc3",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/ab6761610000f178a52538772891f66547e1ebc3",
+      "width" : 160
+    } ],
+    "name" : "Santhosh Narayanan",
+    "popularity" : 67,
+    "type" : "artist",
+    "uri" : "spotify:artist:5FVBduYaeVBb6JIghza7v6"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/07dLDdQaGtCzRksu1phXbG"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 49823
+    },
+    "genres" : [ "sound" ],
+    "href" : "https://api.spotify.com/v1/artists/07dLDdQaGtCzRksu1phXbG",
+    "id" : "07dLDdQaGtCzRksu1phXbG",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6761610000e5eb2e646dc232ed66cef75aabfa",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/ab676161000051742e646dc232ed66cef75aabfa",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/ab6761610000f1782e646dc232ed66cef75aabfa",
+      "width" : 160
+    } ],
+    "name" : "Sounds of Isha",
+    "popularity" : 49,
+    "type" : "artist",
+    "uri" : "spotify:artist:07dLDdQaGtCzRksu1phXbG"
+  } ],
+  "total" : 42,
+  "limit" : 10,
+  "offset" : 5,
+  "href" : "https://api.spotify.com/v1/me/top/artists?limit=10&offset=5",
+  "previous" : null,
+  "next" : "https://api.spotify.com/v1/me/top/artists?limit=10&offset=15"
+}
