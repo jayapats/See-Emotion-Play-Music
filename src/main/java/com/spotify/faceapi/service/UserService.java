@@ -3,19 +3,17 @@ package com.spotify.faceapi.service;
 import com.spotify.faceapi.exception.*;
 import com.spotify.faceapi.utility.AppConstants;
 import com.spotify.faceapi.utility.HttpHeaderUtility;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
-import lombok.RequiredArgsConstructor;
 import se.michaelthelin.spotify.exceptions.detailed.ForbiddenException;
 import se.michaelthelin.spotify.exceptions.detailed.UnauthorizedException;
 
-import java.util.ArrayList;
 import java.util.LinkedHashMap;
-import java.util.Map;
 
 @Service
 @RequiredArgsConstructor
@@ -24,17 +22,18 @@ public class UserService {
   private final RestTemplate restTemplate;
   HttpHeaderUtility httpHeaderUtility = new HttpHeaderUtility();
 
-  public Map<String, ArrayList<String>> getUser(String token) throws Exception {
+  public LinkedHashMap getUser(String token) throws ForbiddenException, BadRequestException, NotFoundException, NoArtistsException, UnauthorizedException, SpotifyException {
     HttpEntity<String> entity = httpHeaderUtility.setHeaders(token);
-    LinkedHashMap<String, ArrayList<String>> result = new LinkedHashMap<>();
-    try {
-      ResponseEntity<Object> response =
-          restTemplate.exchange(AppConstants.USER_URL, HttpMethod.GET, entity, Object.class);
-      result = (LinkedHashMap) response.getBody();
+    try{
+      ResponseEntity<Object> response = restTemplate.exchange(AppConstants.USER_URL, HttpMethod.GET, entity, Object.class);
+      LinkedHashMap result = (LinkedHashMap) response.getBody();
 
-      if (result != null && result.size() != 0) {
-        return result;
+      if (result.size()==0) {
+        throw new NoUserException(AppConstants.NO_TRACK_EXCEPTION_MSG);
       }
+
+      return result;
+
     } catch (HttpClientErrorException.Unauthorized e) {
       throw new UnauthorizedException(AppConstants.UN_AUTHORIZED_EXCEPTION_MSG);
     } catch (HttpClientErrorException.Forbidden e) {
@@ -48,11 +47,11 @@ public class UserService {
     } catch (Exception e) {
       e.printStackTrace();
     }
-    return result;
+    return null;
   }
 
   public String getUsername(String token) throws Exception {
-    Map<String, ArrayList<String>> user = getUser(token);
-    return String.valueOf(user.get("display_name"));
+    LinkedHashMap user = getUser(token);
+    return (String) user.get("display_name");
   }
 }

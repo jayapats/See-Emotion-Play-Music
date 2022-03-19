@@ -35,6 +35,7 @@ public class SpotifyCallbackController {
 
     if (error != null) {
       model.addAttribute("url", spotifyService.getAuthorizationURL());
+      logger.info("getAuthURL!!");
       return "failureConnect";
     }
     session.setAttribute("code", code);
