@@ -1,6 +1,7 @@
-package com.spotify.faceapi.service;
+package com.spotify.faceapi.Service;
 
 import com.spotify.faceapi.exception.*;
+import com.spotify.faceapi.service.TopTrackService;
 import com.spotify.faceapi.utility.AppConstants;
 import org.junit.Assert;
 import org.junit.Test;

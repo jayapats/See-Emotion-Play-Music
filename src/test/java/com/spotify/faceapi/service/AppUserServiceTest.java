@@ -1,8 +1,9 @@
-package com.spotify.faceapi.service;
+package com.spotify.faceapi.Service;
 
 import com.spotify.faceapi.entity.UserInfo;
 import com.spotify.faceapi.exception.*;
 import com.spotify.faceapi.repository.UserRepository;
+import com.spotify.faceapi.service.AppUserService;
 import org.json.simple.parser.ParseException;
 import org.junit.Assert;
 import org.junit.Test;

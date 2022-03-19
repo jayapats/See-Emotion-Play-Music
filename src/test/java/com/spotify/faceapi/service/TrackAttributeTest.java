@@ -1,7 +1,9 @@
-package com.spotify.faceapi.service;
+package com.spotify.faceapi.Service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.spotify.faceapi.exception.*;
+import com.spotify.faceapi.service.TopTrackService;
+import com.spotify.faceapi.service.TrackAttribute;
 import com.spotify.faceapi.utility.AppConstants;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -44,12 +46,7 @@ public class TrackAttributeTest {
     public void getTrackAttribute_Success() throws Exception {
         JSONParser parser = new JSONParser();
         ObjectMapper mapper = new ObjectMapper();
-
-<<<<<<< HEAD:src/test/java/com/spotify/faceapi/Service/TrackAttributeTest.java
-        Object json_obj_at2  = parser.parse(new FileReader("src/test/java/com/spotify/faceapi/data/TrackAttributes_tc2.json"));
-=======
         Object json_obj_at2  = parser.parse(new FileReader(AppConstants.TEST_DATA_PATH +"TrackAttributes_tc2.json"));
->>>>>>> 8a9373b3161b7c051cf4d58c22a69a281ebbb574:src/test/java/com/spotify/faceapi/service/TrackAttributeTest.java
         Map<String, String> trackAttribue_map2 = mapper.readValue(json_obj_at2.toString(), Map.class);
         ResponseEntity responseEntity = new ResponseEntity(trackAttribue_map2, HttpStatus.OK);
         Mockito.when(restTemplate.exchange(ArgumentMatchers.anyString(),

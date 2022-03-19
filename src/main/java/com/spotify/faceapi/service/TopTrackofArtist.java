@@ -42,8 +42,6 @@ public class TopTrackofArtist {
 
             if (resultToptracksofArtist != null && resultToptracksofArtist.size() != 0) {
                 return resultToptracksofArtist;
-            } else {
-                throw new NoTrackException(AppConstants.NO_TRACK_EXCEPTION_MSG);
             }
 
         } catch (HttpClientErrorException.Unauthorized e) {
@@ -54,8 +52,6 @@ public class TopTrackofArtist {
             throw new BadRequestException(AppConstants.BAD_REQUEST_EXCEPTION_MSG);
         } catch (HttpClientErrorException.NotFound e) {
             throw new Exception(AppConstants.NOT_FOUND_EXCEPTION_MSG);
-        } catch (NoTrackException e) {
-            throw new NoArtistsException(AppConstants.NO_TRACK_EXCEPTION_MSG);
         } catch (Exception e) {
             e.printStackTrace();
         }
