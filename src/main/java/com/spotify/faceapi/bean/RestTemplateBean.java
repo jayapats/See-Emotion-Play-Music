@@ -10,5 +10,4 @@ public class RestTemplateBean {
     public RestTemplate restTemplate() {
         return new RestTemplate();
     }
-
 }
