@@ -7,6 +7,7 @@ public class HttpHeaderUtility {
   public HttpEntity<String> setHeaders(String token) {
     HttpHeaders headers = new HttpHeaders();
     headers.set("Authorization", "Bearer " + token);
-    return new HttpEntity<>("paramters", headers);
+    HttpEntity<String> entity = new HttpEntity<>("paramters", headers);
+    return entity;
   }
 }

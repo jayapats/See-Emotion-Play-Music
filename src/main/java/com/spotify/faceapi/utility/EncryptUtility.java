@@ -21,5 +21,4 @@ public class EncryptUtility {
     return Base64.getUrlEncoder().withoutPadding().encodeToString(digest);
   }
 
-  private EncryptUtility() {}
 }

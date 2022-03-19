@@ -1,8 +1,7 @@
 package com.spotify.faceapi.service;
 
-import com.spotify.faceapi.dto.AccessTokenDTO;
 import com.spotify.faceapi.utility.AppConstants;
-import lombok.RequiredArgsConstructor;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -11,12 +10,13 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
-import se.michaelthelin.spotify.exceptions.detailed.UnauthorizedException;
+import lombok.RequiredArgsConstructor;
+import com.spotify.faceapi.dto.AccessTokenDTO;
 
 @Service
 @RequiredArgsConstructor
 public class AccessTokenService {
-//    private final AppConstants appConstants;
+    //    private final AppConstants appConstants;
     private final SpotifyService spotifyService;
     private final RestTemplate restTemplate;
     private static final String URL = "https://accounts.spotify.com/api/token";
@@ -36,7 +36,7 @@ public class AccessTokenService {
         HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<>(map, headers);
 
         ResponseEntity<AccessTokenDTO> response = restTemplate.postForEntity(URL, request, AccessTokenDTO.class);
-        return response.getBody().getAccessToken();
+        return response.getBody().getAccess_token();
     }
 
 }

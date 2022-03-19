@@ -10,6 +10,4 @@ public class EncoderUtility {
     secureRandom.nextBytes(codeVerifier);
     return Base64.getUrlEncoder().withoutPadding().encodeToString(codeVerifier);
   }
-
-  private EncoderUtility() {}
 }

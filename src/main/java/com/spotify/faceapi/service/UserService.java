@@ -28,11 +28,13 @@ public class UserService {
       ResponseEntity<Object> response = restTemplate.exchange(AppConstants.USER_URL, HttpMethod.GET, entity, Object.class);
       LinkedHashMap result = (LinkedHashMap) response.getBody();
 
-      if (result.size()==0) {
-        throw new NoUserException(AppConstants.NO_TRACK_EXCEPTION_MSG);
-      }
+//      if (result.size()==0) {
+//        throw new NoUserException(AppConstants.NO_TRACK_EXCEPTION_MSG);
+//      }
 
-      return result;
+      if(result != null && result.size()!=0){
+        return result;
+      }
 
     } catch (HttpClientErrorException.Unauthorized e) {
       throw new UnauthorizedException(AppConstants.UN_AUTHORIZED_EXCEPTION_MSG);
