@@ -11,11 +11,11 @@ import lombok.AllArgsConstructor;
 @Controller
 @AllArgsConstructor
 public class InitController {
-  private final SpotifyService spotifyService;
+    private final SpotifyService spotifyService;
 
-  @GetMapping(value = "/main", produces = MediaType.TEXT_HTML_VALUE)
-  public String showIndex(final Model model) {
-    model.addAttribute("url", spotifyService.getAuthorizationURL());
-    return "home";
-  }
+    @GetMapping(value = "/main", produces = MediaType.TEXT_HTML_VALUE)
+    public String showIndex(final Model model) {
+        model.addAttribute("url", spotifyService.getAuthorizationURL());
+        return "home";
+    }
 }

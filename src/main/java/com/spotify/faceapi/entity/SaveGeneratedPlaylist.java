@@ -16,9 +16,11 @@ import javax.persistence.Table;
 // @EnableAutoConfiguration
 @Table(name = "PLAYLIST_TBL")
 public class SaveGeneratedPlaylist {
-  @Id @GeneratedValue private int id;
+    @Id
+    @GeneratedValue
+    private int id;
 
-  private String playlistName;
+    private String playlistName;
 
-  private String trackID;
+    private String trackID;
 }

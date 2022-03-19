@@ -19,34 +19,34 @@ import java.util.LinkedHashMap;
 @Service
 @RequiredArgsConstructor
 public class TrackAttribute {
-  private final RestTemplate restTemplate;
-  HttpHeaderUtility httpHeaderUtility = new HttpHeaderUtility();
+    private final RestTemplate restTemplate;
+    HttpHeaderUtility httpHeaderUtility = new HttpHeaderUtility();
 
-  public Object getTrackAttributes(String token, String trackId) throws Exception {
-    HttpEntity<String> entity = httpHeaderUtility.setHeaders(token);
+    public Object getTrackAttributes(String token, String trackId) throws Exception {
+        HttpEntity<String> entity = httpHeaderUtility.setHeaders(token);
 
-    try {
-      ResponseEntity<Object> responseAtt =
-          restTemplate.exchange(
-              AppConstants.TRACK_ATTRIBUTES_URL + trackId, HttpMethod.GET, entity, Object.class);
+        try {
+            ResponseEntity<Object> responseAtt =
+                    restTemplate.exchange(
+                            AppConstants.TRACK_ATTRIBUTES_URL + trackId, HttpMethod.GET, entity, Object.class);
 
-      LinkedHashMap<String, ArrayList<String>> resultAtt = (LinkedHashMap) responseAtt.getBody();
+            LinkedHashMap<String, ArrayList<String>> resultAtt = (LinkedHashMap) responseAtt.getBody();
 
-      if (resultAtt != null && responseAtt.getBody() != null) {
-        return resultAtt;
-      }
+            if (resultAtt != null && responseAtt.getBody() != null) {
+                return resultAtt;
+            }
 
-    } catch (HttpClientErrorException.Unauthorized e) {
-      throw new UnauthorizedException(AppConstants.UN_AUTHORIZED_EXCEPTION_MSG);
-    } catch (HttpClientErrorException.Forbidden e) {
-      throw new ForbiddenException(AppConstants.FORBIDDEN_EXCEPTION_MSG);
-    } catch (HttpClientErrorException.BadRequest e) {
-      throw new BadRequestException(AppConstants.BAD_REQUEST_EXCEPTION_MSG);
-    } catch (HttpClientErrorException.NotFound e) {
-      throw new Exception(AppConstants.NOT_FOUND_EXCEPTION_MSG);
-    } catch (Exception e) {
-      e.printStackTrace();
+        } catch (HttpClientErrorException.Unauthorized e) {
+            throw new UnauthorizedException(AppConstants.UN_AUTHORIZED_EXCEPTION_MSG);
+        } catch (HttpClientErrorException.Forbidden e) {
+            throw new ForbiddenException(AppConstants.FORBIDDEN_EXCEPTION_MSG);
+        } catch (HttpClientErrorException.BadRequest e) {
+            throw new BadRequestException(AppConstants.BAD_REQUEST_EXCEPTION_MSG);
+        } catch (HttpClientErrorException.NotFound e) {
+            throw new Exception(AppConstants.NOT_FOUND_EXCEPTION_MSG);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
     }
-    return null;
-  }
 }

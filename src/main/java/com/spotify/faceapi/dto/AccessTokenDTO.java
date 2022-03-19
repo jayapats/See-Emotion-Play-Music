@@ -8,5 +8,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AccessTokenDTO {
-  private String access_token;
+    private String access_token;
 }
