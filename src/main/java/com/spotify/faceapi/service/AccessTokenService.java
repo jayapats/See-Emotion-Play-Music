@@ -2,10 +2,7 @@ package com.spotify.faceapi.service;
 
 import com.spotify.faceapi.utility.AppConstants;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
@@ -36,7 +33,13 @@ public class AccessTokenService {
         HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<>(map, headers);
 
         ResponseEntity<AccessTokenDTO> response = restTemplate.postForEntity(URL, request, AccessTokenDTO.class);
-        return response.getBody().getAccess_token();
+
+       if(response.hasBody() ){
+
+               return response.getBody().getAccess_token();
+
+       }
+        return null;
     }
 
 }
