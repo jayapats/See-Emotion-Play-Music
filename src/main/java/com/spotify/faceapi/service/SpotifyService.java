@@ -5,7 +5,6 @@ import com.spotify.faceapi.utility.EncoderUtility;
 import com.spotify.faceapi.utility.EncryptUtility;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
-import lombok.var;
 import org.springframework.stereotype.Service;
 
 
