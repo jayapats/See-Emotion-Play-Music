@@ -33,6 +33,11 @@ Does not need the user to search songs manually everytime
 
 <img width="457" alt="image" src="https://user-images.githubusercontent.com/56284010/186990580-b816610c-5049-47e5-9de8-a35148502eee.png">
 
+<img width="399" alt="image" src="https://user-images.githubusercontent.com/56284010/186990979-2c5c0ffb-7587-4916-b008-9a198573a0a7.png">
+
+<img width="510" alt="image" src="https://user-images.githubusercontent.com/56284010/186991028-edc2db5a-7885-48d7-8b1e-97169863ad22.png">
+
+<img width="498" alt="image" src="https://user-images.githubusercontent.com/56284010/186991126-59bf94bc-1ea4-4266-b498-5da558545be4.png">
 
 <img width="499" alt="image" src="https://user-images.githubusercontent.com/56284010/186990722-459b60fd-a8ac-4351-92db-dd3f0026290f.png">
 
